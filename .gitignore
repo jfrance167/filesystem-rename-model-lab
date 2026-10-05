@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+STATE.md
+PLAN.md
+DECISIONS.md
+research/*
+!research/oracle-freeze.json
+!research/source-index.json

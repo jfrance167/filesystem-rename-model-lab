@@ -1,0 +1,10 @@
+# Development/SAST only; exact currently installed versions and dependencies.
+# Artifact hashes remain unverified: official PyPI metadata transport failed.
+bandit==1.9.4
+PyYAML==6.0.3
+stevedore==5.9.1
+rich==15.0.0
+Pygments==2.21.0
+markdown-it-py==4.2.0
+mdurl==0.1.2
+colorama==0.4.6 ; platform_system == "Windows"

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-05",
+  "inspection": "Selected actual returned upstream bodies only; never executed. Planning receipt binds saved bytes; upstream blobs identify complete remote files, not excerpt digests.",
+  "sources": [
+    {"local":"py.source.txt","repository":"pytest-dev/pyfakefs","path":"pyfakefs/fake_filesystem.py","ref":"796c48eb7830e3ee7fb57eb368dc115c1f3436ba","blob":"6110aa5d2b3151170bc75214e8d987b731cc11d1","requested_range":[1900,2190],"license":"Apache-2.0; pyfakefs-license.source.txt"},
+    {"local":"tests.source.txt","repository":"pytest-dev/pyfakefs","path":"pyfakefs/tests/fake_os_test.py","ref":"796c48eb7830e3ee7fb57eb368dc115c1f3436ba","blob":"173dc46fb499be280b5b908b8acc1207874b3f7c","requested_range":[1050,1185],"license":"Apache-2.0; pyfakefs-license.source.txt"},
+    {"local":"ltp.source.txt","repository":"linux-test-project/ltp","path":"testcases/kernel/syscalls/rename/rename01.c","ref":"dca9f0d272b2923256852fc37abd222b533d91e0","blob":"2bbb70b2ccde520ac8db376d0ec12252e149e746","requested_range":"full","license":"GPL-2.0-or-later; SPDX/header preserved"},
+    {"local":"pyfakefs-license.source.txt","repository":"pytest-dev/pyfakefs","path":"COPYING","ref":"796c48eb7830e3ee7fb57eb368dc115c1f3436ba","blob":"67db8588217f266eb561f75fae738656325deac9","requested_range":"full; copied unchanged from accepted lifecycle research/sources"},
+    {"local":"py-maintenance.json","url":"https://api.github.com/repos/pytest-dev/pyfakefs/commits/796c48eb7830e3ee7fb57eb368dc115c1f3436ba","selection":"commit identity/date/message and changed-file metadata/patches; public contact/signature data omitted"},
+    {"local":"ltp-maintenance.json","url":"https://api.github.com/repos/linux-test-project/ltp/commits/dca9f0d272b2923256852fc37abd222b533d91e0","selection":"commit identity/date/message and changed-file metadata/patches; public contact/signature data omitted"},
+    {"local":"rename-issue.json","url":"https://api.github.com/repos/pytest-dev/pyfakefs/issues/1341","selection":"issue identity/status/dates/body; no reproduction executed"}
+  ],
+  "reused_ledger": "../RESEARCH.md names exact prior lifecycle source-index and sticky inspected blobs/license/CI gaps. No fresh entire dependency/audit claim.",
+  "primary_browser_sources": ["https://man7.org/linux/man-pages/man2/rename.2.html", "https://man7.org/linux/man-pages/man2/fsync.2.html"],
+  "retrieval_limits": "Direct POSIX page inaccessible. First fresh kernel range unrelated; full connector/API/raw fallback transport failed. Do not claim fresh vfs_rename inspection. Connected GitHub succeeded for candidates despite intermittent errors."
+}

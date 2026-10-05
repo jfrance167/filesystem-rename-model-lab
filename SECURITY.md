@@ -1,0 +1,11 @@
+# Security boundary
+
+This is a supplied-data endpoint model, not a filesystem security filter or process sandbox. An attacker controls JSON, IDs, context and event order. Incorrect admission, reference retargeting, alias removal or partial-prefix publication could produce a misleading report. Exact native types/key guards, bounded input/IDs/arrays/depth/numbers, complete validation before unsupported/replay, private copies and independent fixtures address those modeled risks.
+
+Input cannot select paths, imports, shells, network destinations, modules or executable code. The application imports only stdlib and its own modules; no upstream/source examples executed. The verifier spawns fixed owned test/SAST scripts using its installed Python executable. The mutation helper compiles only this lab's trusted core plus six fixed replacements, never user input. Do not reuse that mechanism as an arbitrary-code service.
+
+All outcomes keep real_effects/permissions/durability/concurrency unverified. Complete references are declarations, not evidence of actual OS references. no_declared_holders is a count label, not proof of physical reclamation. Same-mount context, success and resolution are assumptions. Real failure may follow an actual effect; no errno or rollback prediction. No deployment, public service, permissions checker or target experiment is authorized by these results.
+
+Logical limits do not establish hard CPU/RSS containment, physical all-or-nothing output, safety against concurrent mutation of native API inputs, runtime compromises or hostile installed Python/dependencies. serialize_report accepts trusted evaluator reports only. A partial write may already have delivered bytes before exit3. If both sinks fail, diagnostics may be unavailable; both are detached to preserve shutdown status.
+
+Local verification was on Windows CPython3.13.7 only. No comprehensive dependency/advisory/secret-history audit, Linux runtime, upstream execution, hosted CI/CodeQL, repository eligibility/protection assessment or independent security review. No new repository or publication was requested. Share reproducible synthetic issues through an explicitly authorized channel; this file authorizes no messaging or release.

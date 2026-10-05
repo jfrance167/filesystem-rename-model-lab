@@ -1,0 +1,11054 @@
+[
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      null,
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "F",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "F",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      null,
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "F",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "F",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      null
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": null
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      null,
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      null,
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "F",
+      "G",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "F",
+      null
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "F"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "F"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 0,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 1,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 0,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 1,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  },
+  {
+    "before": [
+      "G",
+      "G",
+      "G"
+    ],
+    "holds": [
+      "F",
+      "G"
+    ],
+    "source": 2,
+    "destination": 2,
+    "after": [
+      "G",
+      "G",
+      "G"
+    ]
+  }
+]

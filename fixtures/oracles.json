@@ -1,0 +1,3126 @@
+[
+  {
+    "id": "baseline",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "same_name",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "A",
+          "effect": "same_name_noop",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "A",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "same_alias",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "same_file_noop",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "A",
+                "file_id": "F"
+              },
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 2,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "move",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "move_other_alias",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "C",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "C",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              },
+              {
+                "name_id": "C",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 2,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          },
+          {
+            "name_id": "C",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "replace_unheld",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 0,
+                "retention": "no_declared_holders"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 0,
+            "retention": "no_declared_holders"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "replace_ref",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "R",
+          "file_id": "G"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "G"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 1,
+                "retention": "reference_only"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 1,
+            "retention": "reference_only"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "victim_alias",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        },
+        {
+          "name_id": "C",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          },
+          {
+            "name_id": "C",
+            "file_id": "G"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              },
+              {
+                "name_id": "C",
+                "file_id": "G"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          },
+          {
+            "name_id": "C",
+            "file_id": "G"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "source_alias",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        },
+        {
+          "name_id": "C",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          },
+          {
+            "name_id": "C",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              },
+              {
+                "name_id": "C",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 2,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 0,
+                "retention": "no_declared_holders"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          },
+          {
+            "name_id": "C",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 0,
+            "retention": "no_declared_holders"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "both_refs",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "R",
+          "file_id": "G"
+        },
+        {
+          "reference_id": "S",
+          "file_id": "F"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          },
+          {
+            "reference_id": "S",
+            "file_id": "F"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "G"
+              },
+              {
+                "reference_id": "S",
+                "file_id": "F"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 1,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 1,
+                "retention": "reference_only"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          },
+          {
+            "reference_id": "S",
+            "file_id": "F"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 1,
+            "retention": "reference_only"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "reference_only_initial",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "R",
+          "file_id": "G"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 1,
+            "retention": "reference_only"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "G"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 1,
+                "retention": "reference_only"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 1,
+            "retention": "reference_only"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chain",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "R",
+          "file_id": "G"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        },
+        {
+          "event_id": "E1",
+          "op": "rename",
+          "source_name": "B",
+          "destination_name": "C"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "G"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 1,
+                "retention": "reference_only"
+              }
+            ]
+          }
+        },
+        {
+          "event_index": 1,
+          "event_id": "E1",
+          "source_name": "B",
+          "destination_name": "C",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "C",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "G"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 0,
+                "reference_count": 1,
+                "retention": "reference_only"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "C",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "G"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 0,
+            "reference_count": 1,
+            "retention": "reference_only"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "reuse_name",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        },
+        {
+          "name_id": "C",
+          "file_id": "G"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "R",
+          "file_id": "F"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        },
+        {
+          "event_id": "E1",
+          "op": "rename",
+          "source_name": "C",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          },
+          {
+            "name_id": "B",
+            "file_id": "G"
+          },
+          {
+            "name_id": "C",
+            "file_id": "G"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "F"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 2,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "replaced",
+          "file_id": "F",
+          "displaced_file_id": "G",
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              },
+              {
+                "name_id": "C",
+                "file_id": "G"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "F"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 1,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        },
+        {
+          "event_index": 1,
+          "event_id": "E1",
+          "source_name": "C",
+          "destination_name": "A",
+          "effect": "moved",
+          "file_id": "G",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "A",
+                "file_id": "G"
+              },
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [
+              {
+                "reference_id": "R",
+                "file_id": "F"
+              }
+            ],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 1,
+                "retention": "named"
+              },
+              {
+                "file_id": "G",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "G"
+          },
+          {
+            "name_id": "B",
+            "file_id": "F"
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "R",
+            "file_id": "F"
+          }
+        ],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 1,
+            "retention": "named"
+          },
+          {
+            "file_id": "G",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "move_back",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        },
+        {
+          "event_id": "E1",
+          "op": "rename",
+          "source_name": "B",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "modeled",
+      "profile": "ordinary_rename_v1",
+      "reason": "complete",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "event_index": 0,
+          "event_id": "E0",
+          "source_name": "A",
+          "destination_name": "B",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "B",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        },
+        {
+          "event_index": 1,
+          "event_id": "E1",
+          "source_name": "B",
+          "destination_name": "A",
+          "effect": "moved",
+          "file_id": "F",
+          "displaced_file_id": null,
+          "after": {
+            "bindings": [
+              {
+                "name_id": "A",
+                "file_id": "F"
+              }
+            ],
+            "references": [],
+            "files": [
+              {
+                "file_id": "F",
+                "name_count": 1,
+                "reference_count": 0,
+                "retention": "named"
+              }
+            ]
+          }
+        }
+      ],
+      "final": {
+        "bindings": [
+          {
+            "name_id": "A",
+            "file_id": "F"
+          }
+        ],
+        "references": [],
+        "files": [
+          {
+            "file_id": "F",
+            "name_count": 1,
+            "reference_count": 0,
+            "retention": "named"
+          }
+        ]
+      },
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "missing",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "C",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_trace",
+      "profile": "ordinary_rename_v1",
+      "reason": "missing_source",
+      "unsupported": null,
+      "trace_error": {
+        "event_index": 0,
+        "event_id": "E0",
+        "violation": "source_unbound"
+      },
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "unbound_same",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "C",
+          "destination_name": "C"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_trace",
+      "profile": "ordinary_rename_v1",
+      "reason": "missing_source",
+      "unsupported": null,
+      "trace_error": {
+        "event_index": 0,
+        "event_id": "E0",
+        "violation": "source_unbound"
+      },
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "late_missing",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "B"
+        },
+        {
+          "event_id": "E1",
+          "op": "rename",
+          "source_name": "A",
+          "destination_name": "C"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_trace",
+      "profile": "ordinary_rename_v1",
+      "reason": "missing_source",
+      "unsupported": null,
+      "trace_error": {
+        "event_index": 1,
+        "event_id": "E1",
+        "violation": "source_unbound"
+      },
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "exchange",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "exchange",
+          "source_name": "C",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "events.0.op",
+          "feature": "exchange"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "noreplace",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "noreplace",
+          "source_name": "C",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "events.0.op",
+          "feature": "noreplace"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "whiteout",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "whiteout",
+          "source_name": "C",
+          "destination_name": "A"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "events.0.op",
+          "feature": "whiteout"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "object_kind_unknown",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "unknown",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.object_kind",
+          "feature": "unknown"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "namespace_unknown",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "unknown",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.namespace",
+          "feature": "unknown"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "resolution_unknown",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "unknown",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.resolution",
+          "feature": "unknown"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "execution_unknown",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "unknown",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.execution",
+          "feature": "unknown"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "reference_coverage_unknown",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "unknown"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.reference_coverage",
+          "feature": "unknown"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "cross_mount",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "cross_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "unsupported",
+      "profile": "ordinary_rename_v1",
+      "reason": "unsupported_context_or_operation",
+      "unsupported": [
+        {
+          "location": "context.namespace",
+          "feature": "cross_mount"
+        }
+      ],
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "unsupported_then_malformed",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "exchange",
+          "source_name": "A",
+          "destination_name": "B"
+        },
+        {
+          "event_id": "E1",
+          "op": "invented",
+          "source_name": "B",
+          "destination_name": "C"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "invalid_value",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "unsupported_bad_context",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [
+        {
+          "event_id": "E0",
+          "op": "exchange",
+          "source_name": "A",
+          "destination_name": "B"
+        }
+      ],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": false,
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "invalid_shape",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "bool_version",
+    "request": {
+      "version": true,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "invalid_shape",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "duplicate_binding",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        },
+        {
+          "name_id": "A",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "duplicate_id",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "unknown_file",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "H"
+        },
+        {
+          "name_id": "B",
+          "file_id": "G"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "unknown_id",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  },
+  {
+    "id": "unheld_file",
+    "request": {
+      "version": 1,
+      "profile": "ordinary_rename_v1",
+      "file_ids": [
+        "F",
+        "G"
+      ],
+      "name_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "bindings": [
+        {
+          "name_id": "A",
+          "file_id": "F"
+        }
+      ],
+      "references": [],
+      "events": [],
+      "context": {
+        "object_kind": "regular_files",
+        "namespace": "same_mount",
+        "resolution": "complete",
+        "execution": "assumed_success",
+        "reference_coverage": "complete"
+      }
+    },
+    "expected": {
+      "status": "invalid_input",
+      "profile": "ordinary_rename_v1",
+      "reason": "unheld_file",
+      "unsupported": null,
+      "trace_error": null,
+      "initial": null,
+      "steps": [],
+      "final": null,
+      "verification": {
+        "real_effects": "unverified",
+        "permissions": "unverified",
+        "durability": "unverified",
+        "concurrency": "unverified"
+      }
+    }
+  }
+]

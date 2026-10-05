@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "profile": "ordinary_rename_v1",
+  "file_ids": ["F", "G"],
+  "name_ids": ["A", "B", "C"],
+  "bindings": [{"name_id": "A", "file_id": "F"}, {"name_id": "B", "file_id": "G"}],
+  "references": [{"reference_id": "R", "file_id": "G"}],
+  "events": [{"event_id": "E0", "op": "rename", "source_name": "A", "destination_name": "B"}],
+  "context": {"object_kind": "regular_files", "namespace": "same_mount", "resolution": "complete", "execution": "assumed_success", "reference_coverage": "complete"}
+}

@@ -1,0 +1,5 @@
+{
+  "help": "usage: rename_lab [--help]\n\nBounded synthetic ordinary rename; real effects unverified.\nRead one UTF8 JSON document from stdin.\n",
+  "arguments": "{\"error\":\"invalid_arguments\"}\n",
+  "io": "{\"error\":\"input_or_output_failure\"}\n"
+}

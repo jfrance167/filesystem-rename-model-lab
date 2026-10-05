@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "sha256": "f9cfc45cf656ad758e302ec14f314b3b349cebcc24a78c17771b94d636ae479d",
+      "path": "CONTRACT.md"
+    },
+    {
+      "sha256": "ab9365d4f7d477da274a3f6e6a1fc742c9b25b4397037620731b155a94f0e17a",
+      "path": "tools/author_oracles.py"
+    },
+    {
+      "sha256": "665e68481e7892e761f08af3f9a53755823557e612485f7c0acb9acb164cfa3a",
+      "path": "fixtures/oracles.json"
+    },
+    {
+      "sha256": "a6acba211f7e6f8c35f869f357234152fe2f68b6032e629e3802496cf1165e4b",
+      "path": "fixtures/domain.json"
+    },
+    {
+      "sha256": "b818f1be002e2b9139f631efcf7f5e312356720dc19b1c47bebc5f6e70e6ed3d",
+      "path": "fixtures/delivery.json"
+    }
+  ],
+  "created_utc": "2026-10-05T15:55:58.4249288Z",
+  "before_core": true
+}

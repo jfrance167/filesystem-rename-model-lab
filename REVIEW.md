@@ -1,5 +1,7 @@
 # ECC actual-change self-review
 
+Publication closeout review, October 5: the original implementation commit `92a0192` passed default-branch Windows/Ubuntu CI, Bandit and CodeQL. Current open CodeQL, secret-scanning and Dependabot alert counts were all zero. Reviewed this documentation-only correction against exact hosted job receipts and repository metadata; no application, test or frozen-fixture changes. Earlier unverified-hosted statements below describe the original local review checkpoint, not current hosted status. This remains Codex self-review, not an independent audit.
+
 Applied installed ecc-code-review SKILL and pinned reviewer checklist to actual current app/core/JSON/CLI, independent author/fixtures/domain, both test modules, mutant/measurement/verifier tools and callers. ECC native2.2.3 installation status read; no hook trust/runtime MCP inference, provider override or independent reviewer claim.
 
 Confirmed defect: initial __main__._text used Windows text writes, causing frozen LF help bytes to become CRLF. Physical child assertion reproduced this; corrected native-buffer UTF8 delivery, preserved first raw failure and reran affected/full normal/O checks without changing expectations.
